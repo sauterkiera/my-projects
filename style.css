@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+}
+
+a {
+  color: rgb(153, 218, 99);
+}
+
+a:hover {
+  color: #63DA68;
+}
+
+.clear {
+  clear: both;
+}
+
+header {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #DA6963;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+#project-container, #aboutme {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 600px;
+}
+
+.project {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #DA6963;
+}
+
+.project img, #aboutme img {
+  width: 250px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.project h2, #aboutme h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
