@@ -17,7 +17,7 @@ a:hover {
 header {
   margin-bottom: 20px;
   padding: 20px;
-  border-bottom: 1px solid #DA6963;
+  border-bottom: 1px solid #F38C0A;
 }
 
 header h1 {
@@ -34,20 +34,15 @@ header nav ul li {
   max-width: 600px;
 }
 
-.project {
+.project, #aboutme {
   margin-bottom: 20px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #DA6963;
+  border-bottom: 1px solid #F38C0A;
 }
 
 .project img, #aboutme img {
   width: 250px;
   float: left;
   margin-right: 10px;
-  margin-bottom: 10px;
-}
-
-.project h2, #aboutme h2 {
-  font-size: 1.5em;
   margin-bottom: 10px;
 }
